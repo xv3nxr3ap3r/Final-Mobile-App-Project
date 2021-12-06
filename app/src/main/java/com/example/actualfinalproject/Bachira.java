@@ -106,7 +106,7 @@ public class Bachira extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 if(nameEdit.getText().toString().equals("Bachira")|| nameEdit.getText().toString().equals("bachira")){
-                    resultEdit.setText("correct name move on to the next striker");
+                    resultEdit.setText("correct!!! You have guessed all correctly");
 
                 }else{
                     resultEdit.setText("wrong try again ");
